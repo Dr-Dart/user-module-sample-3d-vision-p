@@ -1,0 +1,61 @@
+{
+    "main": "index.bundle.js",
+    "usesPermissions": [],
+    "supportedLanguages": [],
+    "requiredPackageNames": [],
+    "type": "Device",
+    "screens": [
+        {
+            "name": "3D Vision",
+            "id": "MainScreen",
+            "messageFilters": [
+                {
+                    "action": "dart.message.action.MAIN",
+                    "category": "dart.message.category.SCREEN"
+                }
+            ]
+        },
+        {
+            "name": "Custom Screen",
+            "id": "CustomScreen",
+            "messageFilters": [
+                {
+                    "action": "vision.module.threedimensional.action.CUSTOM_SCREEN",
+                    "category": "dart.message.category.PIP_SCREEN"
+                }
+            ]
+        },
+        {
+            "name": "Threedimensional_drl",
+            "id": "pip_photoneo_drl",
+            "messageFilters": [
+                {
+                    "action": "com.dart.module.taskeditor.action.USER_COMMAND",
+                    "category": "dart.message.category.PIP_SCREEN"
+                }
+            ]
+        }
+    ],
+    "services": [
+        {
+            "name": "Custom Service",
+            "id": "CustomService",
+            "messageFilters": [
+                {
+                    "action": "vision.module.threedimensional.action.CUSTOM_SERVICE",
+                    "category": "dart.message.category.SERVICE"
+                }
+            ]
+        },
+		        {
+            "name": "DRL Service",
+            "id": "pip_photoneo_drl",
+            "messageFilters": [
+                {
+                    "action": "com.dart.module.taskeditor.action.USER_COMMAND",
+                    "category": "dart.message.category.SERVICE"
+                }
+            ]
+        }
+    ]
+}

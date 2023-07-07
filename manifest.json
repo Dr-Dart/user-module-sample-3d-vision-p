@@ -1,0 +1,10 @@
+{
+    "name": "3D Vision",
+    "packageName": "vision.module.threedimensional",
+    "version": "1.0.0",
+    "sdkVersion": "1",
+    "icon": "assets/images/icon.png",
+    "drscModulePackageFile": "drsc_vision.module.threedimensional.dm",
+    "drcfModulePackageFile": "",
+    "paid": false
+}
